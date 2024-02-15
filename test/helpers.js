@@ -21,6 +21,8 @@ describe("index.html", () => {
   });
 
   describe("the iframe", () => {
+    let iframe;
+
     before(() => {
       iframe = document.querySelector("iframe");
       const hint = "No <iframe> tag found";
